@@ -19,7 +19,5 @@ public class Print {
 }
 
 /* In Java, the + symbol has two meanings:
-
 For text (strings), it joins them together (called concatenation).
-For numbers, it adds values together.
- */
+For numbers, it adds values together. */
