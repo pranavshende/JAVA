@@ -9,14 +9,14 @@ import ExceptionHandling.ExceptionModule;
 import WrapperClasses.WrapperModule;
 import Vector.VectorModule;
 import Output.OutputModule;
-import Classes.ClassesModule;
+import OOPS.v02_Classes_Objects.ClassesAndObjectsDemo;
 
 // NEW MODULES
 import Loops.LoopsModule;
 import Strings.StringsModule;
-import OOPS.Inheritance;
-import OOPS.Polymorphism;
-import OOPS.Abstraction;
+import OOPS.v05_Inheritance.InheritanceDemo;
+import OOPS.v06_Polymorphism.PolymorphismDemo;
+import OOPS.v07_Abstraction.AbstractionDemo;
 import Collections.CollectionsModule;
 import Concurrency.Multithreading;
 import ModernJava.ModernJava;
@@ -56,12 +56,12 @@ public class Main {
         new ArraysModule().utilityMethods();
         // 11. Classes & Objects
         System.out.println("\n>>> Checking Classes Module...");
-        ClassesModule.main(null); // Accessed statically
+        ClassesAndObjectsDemo.main(null); // Accessed statically
 
         // --- OOPS ---
-        new Inheritance().demonstrate();
-        new Polymorphism().demonstration();
-        new Abstraction().demonstrate();
+        InheritanceDemo.main(null);
+        PolymorphismDemo.main(null);
+        AbstractionDemo.main(null);
 
         // --- ADVANCED CORE ---
         new CollectionsModule().demonstrateList();
